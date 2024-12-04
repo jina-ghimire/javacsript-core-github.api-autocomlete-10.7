@@ -1,0 +1,78 @@
+ body,html{
+  margin:0px;
+  padding:0px;
+ } 
+  
+  
+.container{
+    width: 100%;
+    height:100vh;
+    background-color:#C4C4C4;
+    display:flex;
+    flex-direction: column;
+    margin:0px;
+    padding:0px;
+    
+}
+.autocomplete-list{
+    height:auto;
+    width:80%;
+    display:flex;
+    flex-direction: column;
+    background-color: white;  
+    margin-top:0px;
+    margin-left: 20px;
+    padding:15px;
+    background: #E3E3E3;
+
+}
+
+.repos-info{
+  display: flex;
+  flex-direction:column;
+  padding:15px;
+  margin:15px;
+  width:80%;
+}
+.repos-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid black;
+  width: 100%;
+  height:auto;
+  font-size: 2rem;;
+  background: #E27BEB;
+
+  
+}
+
+.autocomplete-list div {
+    padding: 8px;
+    border-bottom: 1px solid #ccc; 
+    font-size:3rem;
+    cursor: pointer;
+}
+  .autocomplete-list div:last-child {
+    border-bottom: none; 
+  }
+.container input{
+    width:80%;
+    height:auto;
+    font-size: 3rem;
+    padding: 15px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.delete-btn {
+  background-color: #E27BEB;
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+.delete-btn img{
+  height:70px;
+  width:70px;
+  color: red;
+}
